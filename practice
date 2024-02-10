@@ -1,0 +1,25 @@
+/* write a program that takes finite   sring input   from usser
+and and store it in a list,then selects a random string each time it ran*/
+
+// taking input
+"use strict";
+const ps = require("prompt-sync");
+const prompt = ps({sigint: true});
+
+
+//loading an empty list \
+var names = [];
+var names = prompt("enter youre names :")
+
+
+
+// selecting a random string
+const randomSelector =(names)=>{
+    let i = names.length ;
+    var randomstring =math.floor(math.random()*i) ;
+    console.log(randomstring);
+    
+}
+
+randomSelector()
+
