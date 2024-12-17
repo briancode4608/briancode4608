@@ -1,0 +1,22 @@
+*{}
+
+#main{
+    align-items: center;
+    width:auto ;
+    height:auto ;
+    color:wheat ;
+    background-color:darkgray ;
+}
+
+#buttoncontainer{
+    margin-left:auto ;
+    margin-right:auto ;
+}
+
+.loadjoke{
+    background-color: transparent;
+    position: relative;
+    color:green ;
+    border-width: 1.25rem;
+
+}
