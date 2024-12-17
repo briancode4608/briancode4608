@@ -1,0 +1,44 @@
+
+body{
+    background-color: lightgrey;
+
+}
+nav{
+    background-color:rgb(236, 198, 29) ;
+    overflow: hidden;
+    height: 3rem;
+    color: whitesmoke;
+    display: grid;
+    align-items: center;
+}
+.navbar ul{
+    list-style: none;
+    align-content: center;
+   display: flex;
+   justify-content: space-between;
+   
+}
+.navbar a{
+   
+    padding: 2px;
+    text-decoration: none;
+    
+    
+  
+
+}
+main{
+    place-items: center;
+    background-color: aliceblue;
+    height: fit-content;
+    border-radius: 25%;
+    
+
+}
+.btn{
+    border-radius: 25%;
+    background-color: transparent;
+}
+.color{
+    color-interpolation-filters: ;
+}
